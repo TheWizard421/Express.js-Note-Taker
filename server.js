@@ -2,7 +2,6 @@ const { json } = require('express');
 const express = require('express');
 const fs = require('fs')
 const path = require('path');
-const { findOne } = require('../../../Module 13/01-Activities/05-Blog-Joins/Unsolved/models/post');
 const app = express();
 const db = require('./db/db.json')
 const PORT = 3001;
